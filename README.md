@@ -76,10 +76,8 @@ This Dockerfile provides instructions to build a Docker image for the provided G
    ```
 
 7. Test if the server is successfully working by accessing the endpoints mentioned in the `README.md` file.
-```
+
 ### Check if the server is running
 1. Go to `http://localhost:<given_port>` and check if you see "`Hello, from Ostad! <3`".
 2. Go to `http://localhost:<given_port>/health` and check if you see "`{"Status": "OK"}`".
 
-
-This modified `README.md` provides step-by-step instructions for creating a Dockerfile, building a Docker image, running a Docker container, and testing the Go server application.

@@ -1,32 +1,3 @@
-# Go Server
-
-A simple go server.
-
-### Instructions to run locally
-
-1. Configure GO in your system.
-2. Download the dependencies using this command:
-    ```bash
-    go mod download
-    ```
-3. Set environment variable to the system for building the application:
-    * `CGO_ENABLED=0`
-    * `GOOS=linux`
-4. Build the application:
-    ```bash
-    go build -o <your_desired_location>/go_server
-    ```
-5. Set environment variable for running:
-    * `PORT=<your_desired_port>`
-5. Run the built binary:
-    ```bash
-    <your_desired_location>/go_server
-    ```
-
-### Check if the server is running
-1. Go to `http://localhost:<given_port>` and check if you see "`Hello, from Ostad! <3`".
-2. Go to `http://localhost:<given_port>/health` and check if you see "`{"Status": "OK"}`".
-
 # Dockerfile for Go Application
 
 This Dockerfile provides instructions to build a Docker image for the provided Go application.
@@ -106,5 +77,9 @@ This Dockerfile provides instructions to build a Docker image for the provided G
 
 7. Test if the server is successfully working by accessing the endpoints mentioned in the `README.md` file.
 ```
+### Check if the server is running
+1. Go to `http://localhost:<given_port>` and check if you see "`Hello, from Ostad! <3`".
+2. Go to `http://localhost:<given_port>/health` and check if you see "`{"Status": "OK"}`".
+
 
 This modified `README.md` provides step-by-step instructions for creating a Dockerfile, building a Docker image, running a Docker container, and testing the Go server application.
